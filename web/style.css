@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(111, 98, 161);
+}
+a:hover {
+    text-decoration: underline;
+}
+.title1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: white;
+    height: 150%;
+    h1 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    a {
+        font-size: 22px;
+        color: gold;
+    }
+}
+.title {
+    background-image:url(../image/gold.png);
+    background-size: cover;
+    color: black;
+    height: 150px;
+    font-family: nsimsun;
+    a {
+        font-size: 22px;
+    }
+    h1 {
+        position: relative;
+        left:120px;
+        top:18px;
+    }
+}
+h1 {
+    font-size: 70px;
+    font-weight:575;
+}
+
+p {
+    margin: 8px;
+    font-size: 27px;
+}
+.intro {
+    background-image:url(../image/gold.png);
+    background-size: cover;
+}
+.no1 {
+    background-image: url(../image/no1.png);
+    background-size:contain;
+    height:35vw;
+    color: white;
+}
+.no2 {
+    background-image: url(../image/no2.png);
+    background-size:contain;
+    height:35vw;
+    color: white;
+}
+.no3 {
+    background-image: url(../image/no3.png);
+    background-size:contain;
+    height:35vw;
+    color: white;
+}
+.no4 {
+    background-image: url(../image/no4.png);
+    background-size:contain;
+    height:40vw;
+    color: white;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 575;
+    font-family: nsimsun;
+    margin-bottom: 15px;
+}
+.see {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.show {
+    display: flex;
+    align-items: center;
+}
+h3 {
+    font-size: 45px;
+    font-weight: 575;
+    font-family: nsimsun;
+    margin-left: 15px;
+}
